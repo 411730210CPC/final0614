@@ -1,0 +1,202 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+* {
+  font-family: "Playfair Display", "標楷體";
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background-color: #faf5e4;
+  position: relative;
+}
+html .box, body .box {
+  width: 560px;
+  height: 315px;
+  border-radius: 15px;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  position: relative;
+  background-color: #f5aee2;
+}
+html .box .box1, body .box .box1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  background-color: #fdccf2;
+}
+html .box .box1 h4, body .box .box1 h4 {
+  position: absolute;
+  left: 13px;
+  top: 20px;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  line-height: 30px;
+  opacity: 0.6;
+  color: #003566;
+}
+html .box .box2, body .box .box2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
+  position: absolute;
+  left: 230px;
+  top: 40px;
+}
+html .box .box2 h4, body .box .box2 h4 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  line-height: 35px;
+  padding: 10px 0px;
+  margin: 0 10px;
+  color: #0058ff;
+  opacity: 0;
+}
+html .box:hover .box1 h4, body .box:hover .box1 h4 {
+  opacity: 0;
+  transition: 2s 1s;
+}
+html .box:active .box2 h4, body .box:active .box2 h4 {
+  opacity: 1;
+  transition: 1s 1s;
+}
+html .box:active .box1 h4, body .box:active .box1 h4 {
+  opacity: 0.6;
+  transition: 1s;
+}
+html .person, body .person {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  position: absolute;
+  left: 300px;
+  top: 450px;
+  background-color: #EFCDAF;
+}
+html .person .eyes .righteye, body .person .eyes .righteye {
+  border: 2px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 180px;
+  top: 70px;
+  background-color: #f8d2f6;
+}
+html .person .eyes .lefteye, body .person .eyes .lefteye {
+  border: 2px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 80px;
+  top: 70px;
+  background-color: #f8d2f6;
+}
+html .person .nose, body .person .nose {
+  width: 10;
+  height: 0;
+  border: 35px solid;
+  border-color: transparent transparent #fbb034 transparent;
+  position: absolute;
+  left: 115px;
+  top: 90px;
+}
+html .person .mouth, body .person .mouth {
+  width: 100px;
+  height: 80px;
+  border-radius: 50px;
+  position: absolute;
+  left: 100px;
+  top: 180px;
+  background-color: #ef9de1;
+}
+html .person .mouth .tongue, body .person .mouth .tongue {
+  width: 50px;
+  height: 60px;
+  border-radius: 0;
+  border-radius: 80px 80px 200px 200px;
+  position: absolute;
+  left: 27px;
+  top: 50px;
+  background-color: #E76C3C;
+}
+html .youtubeDisplay, body .youtubeDisplay {
+  width: 600px;
+  height: 315px;
+  border-radius: 0;
+  position: absolute;
+  left: 810px;
+  top: 100px;
+}
+html .img, body .img {
+  width: 150px;
+  height: 150px;
+  border-radius: 0;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+html .img1, body .img1 {
+  width: 250px;
+  height: 200px;
+  border-radius: 0;
+  position: absolute;
+  left: 230px;
+  top: 80px;
+}
+html .h5p, body .h5p {
+  width: 600px;
+  height: 400px;
+  border-radius: 0;
+  position: absolute;
+  left: 800px;
+  top: 450px;
+}
+html .person:hover .righteye, body .person:hover .righteye {
+  position: absolute;
+  left: 180px;
+  top: 50px;
+  transition: 1s;
+}
+html .person:hover .lefteye, body .person:hover .lefteye {
+  position: absolute;
+  left: 80px;
+  top: 50px;
+  transition: 1s;
+}
+html .person:hover .mouth, body .person:hover .mouth {
+  width: 120px;
+  height: 96px;
+  border-radius: 60px;
+  position: absolute;
+  left: 90px;
+  top: 180px;
+  transition: 1s;
+}
+html .person:hover .mouth .tongue, body .person:hover .mouth .tongue {
+  width: 59px;
+  height: 36px;
+  border-radius: 0;
+  position: absolute;
+  left: 33px;
+  top: 60px;
+  border-radius: 100px 100px 40px 40px;
+  transition: 1s;
+}
+html .person:active .righteye, body .person:active .righteye {
+  background-color: #f092c1;
+}
+html .person:active .lefteye, body .person:active .lefteye {
+  background-color: #f092c1;
+}
